@@ -23,5 +23,5 @@ script: |-
   sudo apt-get install gradle -y
 
   # Install awscli
-  sudo apt-get install pip -y
+  sudo apt-get install python-pip -y
   sudo pip install awscli -y
