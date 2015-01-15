@@ -7,15 +7,18 @@ keywords:
   - java
   - awscli
 script: |-
+  sudo apt-get update
+  sudo apt-get install python-software-properties -y
+
   # Install Oracle JDK 8
   sudo add-apt-repository ppa:webupd8team/java -y
-  sudo apt-get update -y
+  sudo apt-get update
   sudo apt-get install oracle-java8-installer -qq
   sudo apt-get install oracle-java8-set-default -y
 
   # Install Gradle
   sudo add-apt-repository ppa:cwchien/gradle -y
-  sudo apt-get update -y
+  sudo apt-get update
   sudo apt-get install gradle -y
 
   # Install awscli
