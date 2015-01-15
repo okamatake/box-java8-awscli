@@ -24,4 +24,4 @@ script: |-
 
   # Install awscli
   sudo apt-get install python-pip -y
-  sudo pip install awscli -y
+  sudo pip install awscli
